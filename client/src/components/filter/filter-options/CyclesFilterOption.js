@@ -1,17 +1,17 @@
 import React from 'react';
 import Select from 'react-select'
 import styled from 'styled-components';
-import FilterContext from '../../contexts/filter-v2-context/FilterContext';
+import FilterContext from '../../../contexts/filter-v2-context/FilterContext';
 
 import {
     cyclesOptions,
     operationOptions
-} from './FilterConstants';
+} from '../FilterConstants';
 
 import {
     InputWrapper,
     InputGroupWrapper
-} from './FilterStyles';
+} from '../FilterStyles';
 
 export const CyclesFilterOption = ({index, selectedValues,  setRowPayload, setValidated, isInactive}) => {
     

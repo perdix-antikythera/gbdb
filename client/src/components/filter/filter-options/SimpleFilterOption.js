@@ -1,19 +1,19 @@
 import React from 'react';
 import Select from 'react-select'
 import clone from 'just-clone'
-import FilterContext from '../../contexts/filter-v2-context/FilterContext';
+import FilterContext from '../../../contexts/filter-v2-context/FilterContext';
 
 import {
     categoryOptions,
     mnemonicOptions,
     immediateOptions,
     bytesOptions,
-} from './FilterConstants';
+} from '../FilterConstants';
 
 import {
     InputWrapper,
     InputGroupWrapper
-} from './FilterStyles';
+} from '../FilterStyles';
 
 export const SimpleFilterOption = ({ index, searchType, selectedVal, setRowPayload, setValidated, isInactive=false }) => {
     const {

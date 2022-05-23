@@ -1,16 +1,16 @@
 import React from 'react';
 import Select from 'react-select'
-import FilterContext from '../../contexts/filter-v2-context/FilterContext';
+import FilterContext from '../../../contexts/filter-v2-context/FilterContext';
 import clone from 'just-clone';
 
 import {
     flagOptions
-} from './FilterConstants';
+} from '../FilterConstants';
 
 import {
     InputWrapper,
     InputGroupWrapper
-} from './FilterStyles';
+} from '../FilterStyles';
 
 export const FlagsFilterOption = ({index, selectedValues, setRowPayload, setValidated, isInactive}) => {
 

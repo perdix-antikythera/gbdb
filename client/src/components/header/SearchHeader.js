@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import DropdownSection from '../DropdownSection/DropdownSection';
-import ViewSelector from '../filter_v2/views/ViewSelector';
-import FilterOptions from '../filter_v2/FilterOptions';
+import ViewSelector from '../filter/views/ViewSelector';
+import FilterOptions from '../filter/FilterOptions';
 
 const SearchHeader = () => {
 

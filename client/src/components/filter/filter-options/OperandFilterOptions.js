@@ -2,19 +2,19 @@ import React from 'react';
 import Select from 'react-select';
 import clone from 'just-clone';
 
-import FilterContext from '../../contexts/filter-v2-context/FilterContext';
+import FilterContext from '../../../contexts/filter-v2-context/FilterContext';
 
 import {
     operandBytesOptions,
     operandIndexOptions,
     operandNameOptions,
     immediateOptions
-} from './FilterConstants';
+} from '../FilterConstants';
 
 import {
     InputWrapper,
     InputGroupWrapper
-} from './FilterStyles';
+} from '../FilterStyles';
 
 export const OperandFilterOptions = ({index, selectedValues, setRowPayload, setValidated, isInactive}) => {
 

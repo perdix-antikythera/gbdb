@@ -2,10 +2,10 @@ import React from 'react';
 import Select from 'react-select';
 import styled from 'styled-components';
 
-import SimpleFilterOption from './SimpleFilterOption';
-import CyclesFilterOption from './CyclesFilterOption';
-import FlagsFilterOption from './FlagsFilterOption';
-import OperandFilterOptions from './OperandFilterOptions';
+import SimpleFilterOption from './filter-options/SimpleFilterOption';
+import CyclesFilterOption from './filter-options/CyclesFilterOption';
+import FlagsFilterOption from './filter-options/FlagsFilterOption';
+import OperandFilterOptions from './filter-options/OperandFilterOptions';
 
 import {
     logicalOptions,
